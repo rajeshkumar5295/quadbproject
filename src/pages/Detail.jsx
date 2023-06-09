@@ -34,18 +34,18 @@ const Detail = () => {
                        
 
                        <div>
-                            <div className='flex gap-2' >
-                                <h1  className='font-bold '  > Show Name : </h1>
+                            <div className='flex  flex-col md:flex-row  gap-1 md:gap-2 ' >
+                                <h1  className='font-bold '  > ShowName: </h1>
                                  <h3>  {data.show.name} </h3>
                              </div>
-
+                              
                             
-                             <div className='flex gap-2' >
-                                <h1 className='font-bold' > Language : </h1>
+                             <div className='flex  flex-col  md:flex-row     gap-1 md:gap-2 ' >
+                                <h1 className='font-bold' > Language: </h1>
                                  <h3>  {data.show.language} </h3>
                              </div>
                             
-                             <div className='flex gap-2' >
+                             <div className='flex flex-col md:flex-row  gap-1 md:gap-2' >
                                 <h1 className='font-bold' > Premiered : </h1>
                                  <h3>  {data.show.premiered} </h3>
                              </div>

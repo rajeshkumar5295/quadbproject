@@ -31,12 +31,12 @@ const ShowFeature = ( {product} ) => {
             <div className='  flex flex-col md:flex-row w-full gap-10  md:gap-20 border  justify-between mb-4 flex-wrap   '>
                          <div>
                          <div className='flex gap-2 ml-5 ' >
-                               <h1  className='font-bold' >Show Name :  </h1> 
+                               <h1  className='font-bold' >ShowName:  </h1> 
                                <h2 className='text-slate-500' > {product.show.name} </h2>
                             </div>
 
                             <div className='flex ml-5 gap-2 ' > 
-                               <h3 className='font-bold ' >language :</h3> <span className='text-blue-500' > {product.show.language} </span> 
+                               <h3 className='font-bold ' >language:</h3> <span className='text-blue-500' > {product.show.language} </span> 
                                
                              </div>
 
